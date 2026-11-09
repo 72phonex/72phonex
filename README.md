@@ -74,3 +74,4 @@
 </p>
 
 </div>
+if you are reading this it means yu getting close to me and finding thing about me 
