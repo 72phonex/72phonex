@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296 215" width="296" height="215" fill="none">
+  <defs>
+    <linearGradient id="bg-k" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </linearGradient>
+    <linearGradient id="border-k" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="title-k" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Space Grotesk", sans-serif; }
+    .font-mono { font-family: "JetBrains Mono", "Fira Code", Consolas, monospace; }
+    @keyframes k-pulse {
+      0%, 100% { opacity: 0.7; }
+      50% { opacity: 1; }
+    }
+  </style>
+
+  <rect width="296" height="215" rx="12" fill="url(#bg-k)"/>
+  <rect x="1" y="1" width="294" height="213" rx="11" fill="none" stroke="url(#border-k)" stroke-width="1.2"/>
+  <rect x="0" y="0" width="296" height="3" rx="1" fill="#38BDF8"/>
+
+  <!-- Top Pill -->
+  <g transform="translate(18, 16)">
+    <rect width="136" height="18" rx="4" fill="#0C1F38"/>
+    <text x="6" y="13" class="font-mono" font-size="8.5" font-weight="700" fill="#38BDF8" letter-spacing="1">TRINITY COGNITION</text>
+  </g>
+
+  <!-- Title -->
+  <text x="18" y="58" class="font-sans" font-size="22" font-weight="800" fill="url(#title-k)" letter-spacing="1">
+    KARIN AI
+  </text>
+  <text x="18" y="74" class="font-mono" font-size="10.5" fill="#94A3B8">
+    Memory + Emotion + Reasoning Loop
+  </text>
+
+  <!-- Description -->
+  <text x="18" y="98" class="font-sans" font-size="11.5" fill="#CBD5E1">
+    <tspan x="18" dy="0">Self-governing cognitive architecture in</tspan>
+    <tspan x="18" dy="16">small models. Retains episodic memory,</tspan>
+    <tspan x="18" dy="16">simulates affect, sets intrinsic goals.</tspan>
+  </text>
+
+  <!-- Tech Chips -->
+  <g transform="translate(18, 150)">
+    <rect x="0" y="0" width="56" height="20" rx="4" fill="#132238" stroke="#1E3A5F" stroke-width="0.75"/>
+    <text x="8" y="14" class="font-mono" font-size="9.5" fill="#38BDF8">Python</text>
+
+    <rect x="62" y="0" width="66" height="20" rx="4" fill="#132238" stroke="#1E3A5F" stroke-width="0.75"/>
+    <text x="70" y="14" class="font-mono" font-size="9.5" fill="#38BDF8">Supabase</text>
+
+    <rect x="134" y="0" width="68" height="20" rx="4" fill="#132238" stroke="#1E3A5F" stroke-width="0.75"/>
+    <text x="142" y="14" class="font-mono" font-size="9.5" fill="#38BDF8">FastEmbed</text>
+  </g>
+
+  <!-- Bottom CTA -->
+  <line x1="18" y1="182" x2="278" y2="182" stroke="#1E293B" stroke-width="1"/>
+  <text x="18" y="200" class="font-mono" font-size="10" fill="#64748B">REPOSITORY: </text>
+  <text x="88" y="200" class="font-mono" font-size="10" font-weight="700" fill="#38BDF8">72phonex/karin-ai →</text>
+</svg>
