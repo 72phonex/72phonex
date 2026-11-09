@@ -1,71 +1,76 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/72phonex/72phonex/main/assets/banner.svg" width="100%" alt="PHONEX terminal banner with crawling bugs and pixel characters" />
+<!-- HERO BANNER -->
+<img src="./assets/banner.svg" width="100%" alt="Aryan Malik - AI Systems Architect & Cognitive Computing Researcher" />
+
+<br/><br/>
+
+<!-- STOIC CREED & RESEARCH VECTORS BENTO -->
+<img src="./assets/about.svg" width="100%" alt="Stoic Engineering Creed and Frontier Cognitive Vectors" />
+
+<br/>
+
+<!-- SECTION DIVIDER -->
+<img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+
+</div>
+
+### ◈ FEATURED ARCHITECTURES
+
+<div align="center">
+
+<a href="https://github.com/72phonex/karin-ai">
+  <img src="./assets/card-karin.svg" width="32%" alt="KARIN AI: Trinity Cognitive Architecture" />
+</a>
+<a href="https://github.com/72phonex/CALSIER-AI">
+  <img src="./assets/card-calsier.svg" width="32%" alt="CALSIER-AI: Self-Evolving Modular Logic" />
+</a>
+<a href="https://github.com/72phonex/USB-Uncensored-LLM">
+  <img src="./assets/card-usb.svg" width="32%" alt="USB-LLM: Portable Air-Gapped Local Inference" />
+</a>
 
 </div>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/72phonex/72phonex/main/assets/about.svg" width="100%" alt="neofetch style card: 72phonex, BTech CSE at MAIT Delhi, AI researcher and builder" />
+<br/>
+
+<!-- SECTION DIVIDER -->
+<img src="./assets/divider.svg" width="100%" alt="Section Divider" />
 
 </div>
 
-<img src="https://raw.githubusercontent.com/72phonex/72phonex/main/assets/divider.svg" width="100%" alt="" />
-
-### `$ ls ~/projects`
+### ◈ TRAJECTORY // 2026 ROADMAP
 
 <div align="center">
 
-<a href="https://github.com/72phonex/karin-ai"><img src="https://raw.githubusercontent.com/72phonex/72phonex/main/assets/card-karin.svg" width="32%" alt="KARIN: Trinity Architecture AI" /></a>
-<a href="https://github.com/72phonex/AI--chatbot"><img src="https://raw.githubusercontent.com/72phonex/72phonex/main/assets/card-chatbot.svg" width="32%" alt="AI Chatbot: Flask, Groq API, Supabase" /></a>
-<a href="https://github.com/72phonex/CALSIER-AI"><img src="https://raw.githubusercontent.com/72phonex/72phonex/main/assets/card-calsier.svg" width="32%" alt="CALSIER-AI: self-evolving system" /></a>
+<img src="./assets/roadmap.svg" width="100%" alt="Research Trajectory and Milestone Progress" />
+
+<br/><br/>
+
+<!-- SECTION DIVIDER -->
+<img src="./assets/divider.svg" width="100%" alt="Section Divider" />
 
 </div>
 
-<img src="https://raw.githubusercontent.com/72phonex/72phonex/main/assets/divider.svg" width="100%" alt="" />
-
-### `$ cat research_focus.txt`
-
-```text
-> Memory & continuous learning
-> Emotional state in language models
-> Autonomous reasoning loops
-> Persistent AI architecture
-```
-
-### `$ ./roadmap.sh`
+### ◈ ARSENAL // PRODUCTION & COGNITIVE STACK
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/72phonex/72phonex/main/assets/roadmap.svg" width="100%" alt="Roadmap: Mistral 7B inference, LoRA fine-tuning, arXiv paper, personal server" />
+<img src="./assets/stack.svg" width="100%" alt="Cognitive Arsenal and Production Tech Stack" />
 
-</div>
+<br/><br/>
 
-<img src="https://raw.githubusercontent.com/72phonex/72phonex/main/assets/divider.svg" width="100%" alt="" />
+<!-- FOOTER SEAL -->
+<img src="./assets/footer.svg" width="100%" alt="Building toward Jarvis. One commit at a time." />
 
-### `$ cat stack.txt`
+<br/>
 
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00FF41)
-![Flask](https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=00FF41)
-![Supabase](https://img.shields.io/badge/Supabase-0D1117?style=for-the-badge&logo=supabase&logoColor=00FF41)
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=00FF41)
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=00FF41)
-![HTML5](https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=00FF41)
-
-</div>
-
-### `$ git stats --user 72phonex`
-
-<div align="center">
-
-</div>
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/72phonex/72phonex/main/assets/footer.svg" width="100%" alt="Space invaders marching while a ship fires. INSERT COIN TO CONTINUE" />
-
-*Building toward Jarvis. One commit at a time.*
+<!-- TRANSMISSION / CONNECT -->
+<p align="center">
+  <a href="https://github.com/72phonex"><img src="https://img.shields.io/badge/GitHub-72phonex-0B1120?style=for-the-badge&logo=github&logoColor=38BDF8&labelColor=06080E" alt="GitHub" /></a>
+  <a href="mailto:aryanmalik.connect@gmail.com"><img src="https://img.shields.io/badge/Dispatch-Email-0B1120?style=for-the-badge&logo=gmail&logoColor=F59E0B&labelColor=06080E" alt="Email" /></a>
+  <a href="https://github.com/72phonex?tab=repositories"><img src="https://img.shields.io/badge/Sovereignty-Open%20Source-0B1120?style=for-the-badge&logo=opensourceinitiative&logoColor=10B981&labelColor=06080E" alt="Open Source" /></a>
+</p>
 
 </div>
