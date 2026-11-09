@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296 215" width="296" height="215" fill="none">
+  <defs>
+    <linearGradient id="bg-u" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091410"/>
+      <stop offset="100%" stop-color="#040A07"/>
+    </linearGradient>
+    <linearGradient id="border-u" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="title-u" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Space Grotesk", sans-serif; }
+    .font-mono { font-family: "JetBrains Mono", "Fira Code", Consolas, monospace; }
+  </style>
+
+  <rect width="296" height="215" rx="12" fill="url(#bg-u)"/>
+  <rect x="1" y="1" width="294" height="213" rx="11" fill="none" stroke="url(#border-u)" stroke-width="1.2"/>
+  <rect x="0" y="0" width="296" height="3" rx="1" fill="#10B981"/>
+
+  <!-- Top Pill -->
+  <g transform="translate(18, 16)">
+    <rect width="138" height="18" rx="4" fill="#0C2B1D"/>
+    <text x="6" y="13" class="font-mono" font-size="8.5" font-weight="700" fill="#34D399" letter-spacing="1">SOVEREIGN EDGE AI</text>
+  </g>
+
+  <!-- Title -->
+  <text x="18" y="58" class="font-sans" font-size="22" font-weight="800" fill="url(#title-u)" letter-spacing="1">
+    USB-LLM
+  </text>
+  <text x="18" y="74" class="font-mono" font-size="10.5" fill="#94A3B8">
+    Portable Air-Gapped Inference
+  </text>
+
+  <!-- Description -->
+  <text x="18" y="98" class="font-sans" font-size="11.5" fill="#CBD5E1">
+    <tspan x="18" dy="0">Zero-install local AI environment.</tspan>
+    <tspan x="18" dy="16">Run high-quality, uncensored LLMs</tspan>
+    <tspan x="18" dy="16">straight from any portable USB/SSD drive.</tspan>
+  </text>
+
+  <!-- Tech Chips -->
+  <g transform="translate(18, 150)">
+    <rect x="0" y="0" width="66" height="20" rx="4" fill="#0C2B1D" stroke="#165B3E" stroke-width="0.75"/>
+    <text x="8" y="14" class="font-mono" font-size="9.5" fill="#34D399">Air-Gapped</text>
+
+    <rect x="72" y="0" width="56" height="20" rx="4" fill="#0C2B1D" stroke="#165B3E" stroke-width="0.75"/>
+    <text x="80" y="14" class="font-mono" font-size="9.5" fill="#34D399">Qwen</text>
+
+    <rect x="134" y="0" width="76" height="20" rx="4" fill="#0C2B1D" stroke="#165B3E" stroke-width="0.75"/>
+    <text x="142" y="14" class="font-mono" font-size="9.5" fill="#34D399">Persistent</text>
+  </g>
+
+  <!-- Bottom CTA -->
+  <line x1="18" y1="182" x2="278" y2="182" stroke="#1E293B" stroke-width="1"/>
+  <text x="18" y="200" class="font-mono" font-size="10" fill="#64748B">REPOSITORY: </text>
+  <text x="88" y="200" class="font-mono" font-size="10" font-weight="700" fill="#34D399">USB-Uncensored-LLM →</text>
+</svg>
