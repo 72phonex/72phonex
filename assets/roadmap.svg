@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 310" width="920" height="310" fill="none">
+  <defs>
+    <linearGradient id="road-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#05070B"/>
+    </linearGradient>
+    <linearGradient id="road-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="bar-fill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Space Grotesk", sans-serif; }
+    .font-mono { font-family: "JetBrains Mono", "Fira Code", Consolas, monospace; }
+    @keyframes pulse-act {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(0.9); }
+    }
+  </style>
+
+  <rect width="920" height="310" rx="14" fill="url(#road-bg)"/>
+  <rect x="1" y="1" width="918" height="308" rx="13" fill="none" stroke="url(#road-border)" stroke-width="1.2"/>
+
+  <!-- Top Title Bar -->
+  <g transform="translate(28, 24)">
+    <rect width="180" height="20" rx="4" fill="#161F30"/>
+    <text x="8" y="14" class="font-mono" font-size="9.5" font-weight="700" fill="#38BDF8" letter-spacing="1">RESEARCH TRAJECTORY</text>
+    <text x="196" y="14" class="font-mono" font-size="10" fill="#64748B">// ROADMAP 2026</text>
+  </g>
+
+  <!-- Milestones List -->
+  <g transform="translate(28, 64)">
+    <!-- Phase 1: Completed -->
+    <g transform="translate(0, 0)">
+      <circle cx="10" cy="10" r="8" fill="#064E3B" stroke="#10B981" stroke-width="2"/>
+      <path d="M 6 10 L 9 13 L 14 7" stroke="#34D399" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <text x="28" y="14" class="font-mono" font-size="12" font-weight="700" fill="#10B981">[COMPLETE]</text>
+      <text x="120" y="14" class="font-sans" font-size="13" font-weight="600" fill="#F8FAFC">Trinity Cognitive Architecture (Memory + Emotion + Reasoning Engine)</text>
+    </g>
+
+    <!-- Phase 2: Completed -->
+    <g transform="translate(0, 36)">
+      <circle cx="10" cy="10" r="8" fill="#064E3B" stroke="#10B981" stroke-width="2"/>
+      <path d="M 6 10 L 9 13 L 14 7" stroke="#34D399" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <text x="28" y="14" class="font-mono" font-size="12" font-weight="700" fill="#10B981">[COMPLETE]</text>
+      <text x="120" y="14" class="font-sans" font-size="13" font-weight="600" fill="#F8FAFC">Scalable Supabase Vector Memory &amp; FastEmbed Cluster Integration</text>
+    </g>
+
+    <!-- Phase 3: Active Focus -->
+    <g transform="translate(0, 72)">
+      <circle cx="10" cy="10" r="8" fill="#0C3B5E" stroke="#38BDF8" stroke-width="2"/>
+      <circle cx="10" cy="10" r="3.5" fill="#38BDF8" style="animation: pulse-act 1.5s infinite;"/>
+      <text x="28" y="14" class="font-mono" font-size="12" font-weight="700" fill="#38BDF8">[IN PROGRESS]</text>
+      <text x="140" y="14" class="font-sans" font-size="13" font-weight="700" fill="#38BDF8">Mistral 7B Local LoRA Continuous Fine-Tuning &amp; Runtime Weight Updates</text>
+      <rect x="730" y="1" width="134" height="20" rx="4" fill="#0F3854" stroke="#38BDF8" stroke-width="1"/>
+      <text x="742" y="14" class="font-mono" font-size="9.5" font-weight="700" fill="#38BDF8">CURRENT VECTOR</text>
+    </g>
+
+    <!-- Phase 4: Queued -->
+    <g transform="translate(0, 108)">
+      <circle cx="10" cy="10" r="8" fill="#1E293B" stroke="#475569" stroke-width="1.5"/>
+      <text x="28" y="14" class="font-mono" font-size="12" font-weight="600" fill="#94A3B8">[UPCOMING]</text>
+      <text x="120" y="14" class="font-sans" font-size="13" fill="#CBD5E1">arXiv Preprint: "Autonomous Affect Dynamics in Small Language Models"</text>
+    </g>
+
+    <!-- Phase 5: Queued -->
+    <g transform="translate(0, 144)">
+      <circle cx="10" cy="10" r="8" fill="#1E293B" stroke="#475569" stroke-width="1.5"/>
+      <text x="28" y="14" class="font-mono" font-size="12" font-weight="600" fill="#94A3B8">[UPCOMING]</text>
+      <text x="120" y="14" class="font-sans" font-size="13" fill="#CBD5E1">Dedicated Air-Gapped Autonomous Hardware Cluster Node</text>
+    </g>
+  </g>
+
+  <!-- Progress Bar Section -->
+  <g transform="translate(28, 240)">
+    <line x1="0" y1="0" x2="864" y2="0" stroke="#1E293B" stroke-width="1"/>
+    
+    <text x="0" y="24" class="font-mono" font-size="11" font-weight="600" fill="#E2E8F0">
+      SYSTEM COMPLETION: <tspan fill="#38BDF8">50%</tspan> [2 / 4 CORE PHASES OPERATIONAL]
+    </text>
+    <text x="864" y="24" class="font-mono" font-size="11" fill="#F59E0B" text-anchor="end">
+      TARGET: JARVIS COGNITIVE CORE
+    </text>
+
+    <!-- Outer Bar Container -->
+    <rect x="0" y="34" width="864" height="12" rx="6" fill="#0C1322" stroke="#1E293B" stroke-width="1"/>
+    <!-- Filled Gradient Bar -->
+    <rect x="2" y="36" width="432" height="8" rx="4" fill="url(#bar-fill)"/>
+  </g>
+</svg>
